@@ -3,14 +3,7 @@
   line-height: 1.2;
   font-weight: 800;
   letter-spacing: -0.05rem;
-  margin-left: 20px;
-}
-
-.headH2{
-  display: flex;
-  font-size: 20px;
-  margin-left: -614px;
-  align-items: flex-end;
+  margin: 1rem 0;
 }
 
 .headingXl {
@@ -21,7 +14,6 @@
   margin: 1rem 0;
 }
 
-
 .headingLg {
   font-size: 1.5rem;
   line-height: 1.4;
@@ -29,18 +21,12 @@
 }
 
 .headingMd {
-  width:100%;
-  text-align: left;
-  border: 1px outset black;
-}
-
-.mar{
-  text-align: left;
-  margin-left: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 .borderCircle {
-  border-radius: 0px;
+  border-radius: 9999px;
 }
 
 .colorInherit {
@@ -63,29 +49,4 @@
 
 .lightText {
   color: #666;
-}
-
-.sectionDiv {
-display: -webkit-flex;
-display: flex;
-width:100%;
-border: 1px outset black; 
-}
-
-.rowColumn1 {
-width:100%;
--ms-flex: 4;
-flex: 4;
-text-align: left;
-margin-left: 20px;
-
-}
-
-.rowColumn2 {
-width:100%;
--ms-flex: 6;
-flex: 6;
-text-align: left;
-margin-left: 20px;
-
 }
